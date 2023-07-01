@@ -1,0 +1,36 @@
+.EightBall {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  top: 100px;
+}
+
+.EightBall-msg {
+  position: absolute;
+  color: white;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+.EightBall-Reset {
+  top: 225px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  user-select: none;
+}
+
+.EightBall-ColorHistory {
+  position: absolute;
+  color: white;
+  white-space: nowrap;
+  left: 50%;
+  transform: translate(-50%);
+  top: -60px;
+  user-select: none;
+}
